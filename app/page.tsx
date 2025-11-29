@@ -116,13 +116,24 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 text-center min-h-screen flex items-center justify-center">
+      {/* <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 text-center min-h-screen flex items-center justify-center">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8 inline-block">
             <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 p-0.5">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-3xl font-bold">
                 BCP
               </div>
+            </div>
+          </div> */}
+      <section id="home" className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 text-center min-h-screen flex items-center justify-center">
+        <div className="max-w-4xl mx-auto">
+          <div className="mb-8 inline-block">
+            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-cyan-400 p-0.5">
+              <img 
+                src="/images/image.png" 
+                alt="Bharani Chandra P"
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
           
@@ -154,10 +165,10 @@ export default function Home() {
           </div>
 
           <div className="flex gap-6 justify-center text-slate-400">
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/bharani-chandra-p-1b6252253/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
+            <a href="https://github.com/BharaniChandraP" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">
               <Github size={24} />
             </a>
             <a href="mailto:bharanichandraprabhu@gmail.com" className="hover:text-blue-400 transition-colors">
